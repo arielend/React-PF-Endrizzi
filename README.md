@@ -1,4 +1,4 @@
-![Banner Tecno Tienda](https://github.com/arielend/React-PF-Endrizzi/blob/main/public/images/readme/banner-readme.png)
+![Banner Tecno Tienda](/public/images/readme/banner-readme.png)
 # Proyecto ecommerce Tecno Tienda
 ## Curso de React
 ## _CODERHOUSE - Comisión 58160_
@@ -10,11 +10,11 @@ Este proyecto consiste en una aplicación web que permite a los usuarios comprar
 
 ## Tecnologías aplicadas
 Este proyecto fue desarrollado utilizando siguientes tecnologías:
-![Tecnologías del proyecto](https://github.com/arielend/React-PF-Endrizzi/blob/main/public/images/readme/tecnologias-readme.png)
+![Tecnologías del proyecto](/public/images/readme/tecnologias-readme.png)
 
 ## Backend as a service
 Siendo un Proyecto de Front-End, el servicio de backend que sustenta el sitio fue integrado con
-![Built with Firebase](https://github.com/arielend/React-PF-Endrizzi/blob/main/public/images/readme/built-with-firebase.png)
+![Built with Firebase](/public/images/readme/built-with-firebase.png)
 
 
 ## Enlaces a mis redes sociales
@@ -47,7 +47,8 @@ El acceso al carrito de compras se puede hacer desde el widget del carrito ubica
 El proceso de compra se realiza desde el componente chekout, el mismo muestra un detalle de los productos que integran el carrito de compras para revisión y a traves de un formulario se solicitan los datos mínimos para finalizar la compra. El formulario de checkout es validado por 'React-Hooh-Form". Una vez ingresados y validados los datos, se finaliza la compra, luego de la cual el sitio informa el identificador de la orden generada.
 
 ## Accedé al despliegue del proyecto en Vercel
+[Tecno Tienda](#)
 
-![Vercel](https://github.com/arielend/React-PF-Endrizzi/blob/main/public/images/readme/vercel.png)
+![Vercel](/public/images/readme/vercel.png)
 
 # GRACIAS POR VISITAR MI PROYECTO
