@@ -1,0 +1,28 @@
+.linkButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    height: 3rem;
+    width: 12rem;
+    border: solid 0.2rem #0CF;
+}
+
+.linkButton:hover{
+    background-color: #E6E6E6;
+    color: #000;
+}
+
+.linkButton:active{
+    background-color: #CF6;
+    color: #000;
+}
+
+.linkButton:disabled{
+    background-color: #e6e6e6;
+    color: #9a9a9a;
+}

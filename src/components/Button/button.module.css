@@ -1,0 +1,26 @@
+.button{
+    background-color: #fff;
+    color: #000;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border: none;
+    height: 3.366rem;
+    width: 12.366rem;
+    border: solid 0.2rem #0CF;
+}
+
+.button:hover{
+    background-color: #E6E6E6;
+    color: #000;
+}
+
+.button:active{
+    background-color: #CF6;
+    color: #000;
+}
+
+.button:disabled{
+    background-color: #e6e6e6;
+    color: #9a9a9a;
+}

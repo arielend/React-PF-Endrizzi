@@ -1,0 +1,5 @@
+.main{
+  background-image: url('assets/bg.svg');
+  min-height: 70vh;
+  padding: 1rem;
+}

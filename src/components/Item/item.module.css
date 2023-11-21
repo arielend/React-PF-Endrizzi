@@ -1,0 +1,81 @@
+.itemCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 35rem;
+    background-color: #fff;
+    color: #000;
+    box-shadow: rgb(102, 215, 32) 10px 10px 30px -10px;
+    border: none;
+    border-radius: 1.5rem;
+    position: relative;
+}
+
+.sinStock{
+    width: 10rem;
+    position: absolute;
+    top: 5rem;
+    right: 3rem;
+}
+
+.cardImg{
+    width: 300px;
+}
+
+.itemCardButton {
+    --color: #0CF;
+    font-family: inherit;
+    display: inline-block;
+    width: 35rem;
+    height: 5rem;
+    line-height: 2.2rem;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-top: .2rem solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 1.7rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    font-weight: 600;
+    color: var(--color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemCardButton:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 45rem;
+    width: 75rem;
+    border-radius: 50%;
+}
+
+.itemCardButton:hover {
+    color: #fff;
+}
+
+.itemCardButton:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.itemCardButton:hover:before {
+    top: -5rem;
+    left: -18rem;
+}
+
+.itemCardButton:active:before {
+    background: #04a2c9;
+    transition: background 0s;
+}

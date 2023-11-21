@@ -1,0 +1,35 @@
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.spinner{
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #00CCFF1c;
+
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner__img{
+    width: 10rem;
+    animation: spin 1.6s linear infinite;
+}
+
+.spinner__span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0CF;
+}

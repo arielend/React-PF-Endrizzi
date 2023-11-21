@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5.5032mm" height="3.8098mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 550.32 380.98"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#E6E6E6}
+    .fil1 {fill:#00CCFF;fill-rule:nonzero}
+    .fil2 {fill:#00CCFF;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" x="16.93" y="25.39" width="508" height="338.67" rx="101.6" ry="67.73"/>
+  <path class="fil1" d="M84.66 4.21l372.54 0c24.4,0 46.61,10 62.72,26.1l0.08 0.08c16.1,16.11 26.1,38.32 26.1,62.72l0 203.22c0,24.4 -10,46.61 -26.1,62.72l-0.08 0.08c-16.11,16.1 -38.32,26.1 -62.72,26.1l-372.54 0c-24.4,0 -46.61,-10 -62.72,-26.1l-0.08 -0.08c-16.1,-16.11 -26.1,-38.32 -26.1,-62.72l0 -203.22c0,-24.4 10,-46.61 26.1,-62.72l0.08 -0.08c16.11,-16.1 38.32,-26.1 62.72,-26.1zm372.54 42.34l-372.54 0c-12.82,0 -24.48,5.23 -32.92,13.64 -8.41,8.44 -13.64,20.1 -13.64,32.92l0 203.22c0,12.82 5.23,24.48 13.64,32.92 8.44,8.41 20.1,13.64 32.92,13.64l372.54 0c12.82,0 24.48,-5.23 32.92,-13.64 8.41,-8.44 13.64,-20.1 13.64,-32.92l0 -203.22c0,-12.82 -5.23,-24.48 -13.64,-32.92 -8.44,-8.41 -20.1,-13.64 -32.92,-13.64z"/>
+  <path class="fil2" d="M389.42 272.13c11.34,11.34 11.34,29.74 0,41.08 -11.34,11.34 -29.74,11.34 -41.08,0l-77.41 -77.41 -77.41 77.41c-11.34,11.34 -29.74,11.34 -41.08,0 -11.34,-11.34 -11.34,-29.74 0,-41.08l77.41 -77.41 -77.41 -77.41c-11.34,-11.34 -11.34,-29.74 0,-41.08 11.34,-11.34 29.74,-11.34 41.08,0l77.41 77.41 77.41 -77.41c11.34,-11.34 29.74,-11.34 41.08,0 11.34,11.34 11.34,29.74 0,41.08l-77.41 77.41 77.41 77.41z"/>
+ </g>
+</svg>

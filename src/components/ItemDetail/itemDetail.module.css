@@ -1,0 +1,38 @@
+.itemDetail{
+    background-color: rgba(0, 204, 255, 0.249);
+    width: 85rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+}
+
+.itemDetailImg{
+    width: 40rem;
+}
+
+.img{
+    width: 100%;
+}
+
+.itemDetailDesc{
+    width: 40rem;
+    padding: 0  2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.addedItem{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 25rem;
+    background-color: #fff;
+    color: #000;
+    border: solid .2rem #0CF;
+}

@@ -1,0 +1,8 @@
+.itemList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+    row-gap: 3rem;
+}

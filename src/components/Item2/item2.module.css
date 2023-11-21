@@ -1,0 +1,104 @@
+.glassCard{
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    width: 30rem;
+    min-width: 25rem;
+    height: 40rem;
+    padding-top: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 1rem;
+}
+
+.glassCard:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    box-shadow: #00ccff59 0px 5px 15px;
+}
+
+.card__stockBanner{
+    position: absolute;
+    width: 10rem;
+    top: 0;
+    left: 0;
+}
+
+.card__discountBanner{
+    position: absolute;
+    width: 5rem;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+}
+
+.card__image{
+    width: 11rem;
+    transform: scale(1);    
+    transition: all 1.5s;
+}
+
+.glassCard:hover .card__image{
+    transform: scale(2) translateX(-4rem) translateY(3rem);
+    transition: all 1.5s;
+}
+
+.card__description{
+    position: absolute;
+    bottom: 8rem;    
+}
+
+.card__description__p{
+    color: #FFF;
+    font-size: 1.4rem;
+    max-width: 25rem;
+}
+
+.card__button{
+    --yellow: #EAFF6A;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: absolute;
+    bottom: 2rem;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--yellow);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px #EAFF6A66, 0 0 9px 3px rgba(27, 253, 156, 0.1);
+    cursor: pointer;
+    justify-self: last baseline;
+}
+
+.card__button:hover {
+    color: #82ffc9;
+    box-shadow: inset 0 0 10px #EAFF6A99, 0 0 9px 3px #EAFF6A33;
+}
+
+.card__button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, #EAFF6A1a 40%,#EAFF6A1a 60% , transparent 100%);
+}
+
+.card__button:hover:before {
+    transform: translateX(15em);
+}

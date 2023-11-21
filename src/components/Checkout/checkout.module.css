@@ -1,0 +1,106 @@
+.title{
+    font-size: 2rem;
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cartData{
+    width: 60rem;
+    min-width: 50rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem 3rem;
+}
+
+table{
+    max-width: 100%;
+}
+
+tr{
+    height: 3rem;
+}
+
+.tableRowName{
+    text-align: left;
+}
+
+.cartPrice{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.form{
+
+    width: 60rem;
+    min-width: 50rem;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.form__header__title, .cartData__header__title{
+    font-size: 2.2rem;
+}
+
+.form__field{
+    width: 90%;
+    height: 5.5rem;
+    border-bottom: .2rem solid #0CB;
+    position: relative;
+}
+
+.form__field__label{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.form__field__input{
+    min-width: 100%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: none;
+
+    position: relative;
+    bottom: -.8rem;
+}
+
+.form__field__input:focus{
+    border: none;
+    outline: none;
+}
+
+.form__field__input:focus ~ .form__field__label{
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #3498db;
+}
+
+.form__field__alert{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
