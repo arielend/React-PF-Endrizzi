@@ -47,7 +47,7 @@ El acceso al carrito de compras se puede hacer desde el widget del carrito ubica
 El proceso de compra se realiza desde el componente chekout, el mismo muestra un detalle de los productos que integran el carrito de compras para revisión y a traves de un formulario se solicitan los datos mínimos para finalizar la compra. El formulario de checkout es validado por 'React-Hooh-Form". Una vez ingresados y validados los datos, se finaliza la compra, luego de la cual el sitio informa el identificador de la orden generada.
 
 ## Accedé al despliegue del proyecto en Vercel
-[Tecno Tienda](#)
+[Tecno Tienda](https://react-pf-endrizzi-j6h54lx6h-arielends-projects.vercel.app/)
 
 ![Vercel](/public/images/readme/vercel.png)
 
