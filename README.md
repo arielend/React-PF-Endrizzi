@@ -10,6 +10,7 @@ Este proyecto consiste en una aplicación web que permite a los usuarios comprar
 
 ## Tecnologías aplicadas
 Este proyecto fue desarrollado utilizando siguientes tecnologías:
+
 ![Tecnologías del proyecto](/public/images/readme/tecnologias-readme.png)
 
 ## Backend as a service
