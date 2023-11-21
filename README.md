@@ -1,4 +1,4 @@
-<span>![</span><span>Banner Tecno Tienda</span><span>]</span><span>(</span><span></span><span>)</span>
+![Banner Tecno Tienda](https://github.com/arielend/React-PF-Endrizzi/blob/main/public/images/readme/banner-readme.png)
 # Proyecto Tecno Tienda
 ## _Comisión 58160_
 
